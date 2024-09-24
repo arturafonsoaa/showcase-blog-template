@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "./src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write ."
   },
   "author": "Artur Afonso <arturafonso4a@gmail.com>",
   "license": "MIT",
@@ -19,6 +19,8 @@
     "template"
   ],
   "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.13"
   }
 }
