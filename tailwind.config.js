@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         garamond: ['"EB Garamond"', "cursive"],
+        jakarta: ["Plus Jakarta Sans", "sans-serif"],
       },
     },
   },
